@@ -1,18 +1,12 @@
 {
-  "name": "web-z3-phaser",
-  "private": true,
-  "version": "0.0.0",
+  "name": "z3-experiments",
+  "version": "1.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^7.2.4"
-  },
   "dependencies": {
-    "phaser": "^3.90.0",
     "z3-solver": "^4.15.4"
+  },
+  "scripts": {
+    "demo": "node z3demo.js",
+    "puzzles": "node z3_puzzles.js"
   }
 }
